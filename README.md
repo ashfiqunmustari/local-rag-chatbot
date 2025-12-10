@@ -1,6 +1,6 @@
 # Local RAG Chatbot
 
-A **fully local AI chatbot** that can answer questions from your own documents using **Retrieval-Augmented Generation (RAG)** — powered by **LangChain, FAISS, and Ollama**.
+A local AI chatbot that can answer questions from personal documents using Retrieval-Augmented Generation (RAG)
 
 ## Features
 
@@ -13,14 +13,14 @@ A **fully local AI chatbot** that can answer questions from your own documents u
 - Multi-turn chat loop
 
 
-## Architecture Overview
+## Overview
 
 1. **Text Splitting** — chunks + overlap preserve context  
-2. **Embeddings** — via Sentence Transformers  
+2. **Embeddings** — with Sentence Transformers  
 3. **Vector Store** — FAISS for similarity search  
 4. **Retriever**  
    - history-aware
-   - reformulates vague questions  
+   - reformulates vague q uestions  
 5. **RAG Chain**  
    - retrieve top chunks  
    - generate grounded answer  
