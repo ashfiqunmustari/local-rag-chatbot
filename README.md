@@ -1,6 +1,6 @@
 # Local RAG Chatbot
 
-A local AI chatbot that can answer questions from personal documents using Retrieval-Augmented Generation (RAG)
+A local AI chatbot that can answer questions from personal documents using Retrieval-Augmented Generation (RAG). It can work as secure offline AI assistant that answers business FAQs and retrieves key insights like policies, reports, or technical information from internal documents.
 
 ## Features
 
